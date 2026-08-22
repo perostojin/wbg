@@ -96,6 +96,8 @@ nav a:hover {
 #tjanster h2 {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 2em;
+    border-bottom: 2px solid #02882f;
 }
 
 .services-grid {
@@ -108,7 +110,7 @@ nav a:hover {
     padding: 30px;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.2);
     font-size: 1.1em;
 }
 
@@ -130,7 +132,7 @@ nav a:hover {
     max-width: 400px;
     padding: 20px;
     background-color: #d4d6d5;
-    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.2);
 
     display: flex;
     flex-direction: column;
@@ -148,8 +150,72 @@ nav a:hover {
     transition: background-color 0.3s ease;
     font-size: 1.1em;
     font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
 }
 
 .contact-btn:hover {
-    background-color: #026f27;
+   background-color: transparent;
+   color: #02882f;
+   border: 2px solid #02882f;
 }   
+
+#om-oss {
+    padding: 60px 0;
+    background-color: #eeeeee;
+}
+
+#om-oss h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 2px solid #02882f;
+}
+
+#om-oss p {
+    max-width: 700px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#om-oss .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.team {
+    display: grid;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.team article {
+    width: 100%;
+    max-width: 280px;
+    justify-self: center;
+    background-color: #d4d6d5;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.2);
+}
+.team p {
+    font-size: 1.1em;
+    color: #02882f;
+}   
+
+.image-placeholder {
+    width: 100%;
+    background-color: #ffffff;
+    margin: 0 auto 20px auto;
+    aspect-ratio: 4 / 5;
+}
+
+@media (min-width: 700px) {
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+    }
+}
