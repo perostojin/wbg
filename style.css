@@ -400,3 +400,21 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.thank-you {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.thank-you h1 {
+  color: #02882f;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.thank-you p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
