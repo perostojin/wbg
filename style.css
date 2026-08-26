@@ -13,6 +13,13 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 header {
@@ -185,7 +192,7 @@ nav a:hover {
   color: #02882f;
   border: 2px solid #02882f;
 }
-
+ 
 #om-oss {
   padding: 60px 0;
   background-color: #eeeeee;
@@ -318,14 +325,33 @@ nav a:hover {
   display: block;
 }
 
+.project-meta {
+  color: #02882f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-work {
+  margin-top: 6px;
+}
+
 .projects-cta {
   text-align: center;
   margin-top: 30px;
 }
 
 @media (min-width: 700px) {
-  .projects-grid {
+ 
+} 
+
+@media (min-width: 700px) {
+   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .projects-page .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 900px;
+    margin: 30px auto 0;
   }
 }
 
@@ -333,8 +359,6 @@ nav a:hover {
   padding: 60px 0;
   min-height: 70vh;
 }
-
-
 
 #kontakt h2 {
   color: #02882f;
@@ -457,4 +481,16 @@ footer a:hover {
   footer {
     flex-direction: row;
   }
+}
+
+.projects-page {
+  padding: 60px 0;
+}
+
+.projects-page h1 {
+  color: #02882f;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  border-bottom: 2px solid #02882f;
 }
