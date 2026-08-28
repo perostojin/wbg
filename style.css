@@ -56,6 +56,13 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav a:focus-visible,
+.contact-btn:focus-visible {
+  outline: 3px solid #a2e6a8;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 .logo {
   display: inline-block;
 }
@@ -116,7 +123,8 @@ nav a:hover {
   padding: 60px 0;
   background:
     linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.82)),
-    url('/images/marina-zvada-fNxmdlYHRm8-unsplash.jpg')  center / cover no-repeat;
+    url('/images/marina-zvada-fNxmdlYHRm8-unsplash.jpg') center / cover
+      no-repeat;
   min-height: 70vh;
 }
 
@@ -190,7 +198,7 @@ nav a:hover {
   color: #02882f;
   border: 2px solid #02882f;
 }
- 
+
 #om-oss {
   padding: 60px 0;
   background-color: #eeeeee;
@@ -338,10 +346,8 @@ nav a:hover {
   margin-top: 30px;
 }
 
-
-
 @media (min-width: 700px) {
-   .projects-grid {
+  .projects-grid {
     grid-template-columns: repeat(3, 1fr);
   }
   .projects-page .projects-grid {
