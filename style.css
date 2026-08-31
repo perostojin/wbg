@@ -391,7 +391,8 @@ nav a:focus-visible {
 .contact-person {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .phone-link {
