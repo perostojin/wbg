@@ -98,6 +98,10 @@ nav a:focus-visible {
   display: flex;
   align-items: center;
   min-height: 70vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.90), rgba(255, 255, 255, 0.82)),
+    url('/images/hero.jpg') center / cover no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero h1 {
