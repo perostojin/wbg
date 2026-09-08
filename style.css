@@ -252,9 +252,10 @@ nav a:focus-visible {
   text-align: center;
   box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.2);
 }
+
 .team p {
   font-size: 1.1em;
-  color: #02882f;
+  color: #006b25;
 }
 
 .image-placeholder {
@@ -268,7 +269,7 @@ nav a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: #02882f;
+  color: #006b25;
   text-decoration: none;
   font-weight: bold;
 }
@@ -343,7 +344,7 @@ nav a:focus-visible {
 }
 
 .project-meta {
-  color: #02882f;
+  color: #006b25;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -404,7 +405,7 @@ nav a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: #02882f;
+  color: #006b25;
   text-decoration: none;
   font-weight: bold;
 }
