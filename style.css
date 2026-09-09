@@ -1,3 +1,11 @@
+:root {
+  --color-primary: #02882f;
+  --color-dark: #231f20;
+  --color-green-light: #72bf7a;
+  --color-green-hover: #a2e6a8;
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +31,7 @@ main {
 }
 
 header {
-  background-color: #231f20;
+  background-color: var(--color-dark);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -48,11 +56,11 @@ nav ul {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: #72bf7a;
+  color: var(--color-green-light);
 }
 
 nav a:hover {
-  color: #a2e6a8;
+  color: var(--color-green-hover);
   text-decoration: underline;
 }
 
