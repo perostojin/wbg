@@ -3,6 +3,7 @@
   --color-dark: #231f20;
   --color-green-light: #72bf7a;
   --color-green-hover: #a2e6a8;
+  --color-green-dark: #006b25;
 
 }
 
@@ -68,13 +69,13 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid #078c35;
+  outline: 3px solid var(--color-primary);
   outline-offset: 4px;
   border-radius: 4px;
 }
 
 nav a:focus-visible {
-  outline-color: #a2e6a8;
+  outline-color: var(--color-green-hover);
 }
 
 .logo {
@@ -114,7 +115,7 @@ nav a:focus-visible {
 }
 
 .hero h1 {
-  color: #02882f;
+  color: var(--color-primary);
   font-size: 2.5em;
   text-align: center;
 }
@@ -148,11 +149,11 @@ nav a:focus-visible {
 }
 
 #tjanster h2 {
-  color: #02882f;
+  color: var(--color-primary);
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
-  border-bottom: 2px solid #02882f;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .services-grid {
@@ -198,7 +199,7 @@ nav a:focus-visible {
 .contact-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #02882f;
+  background-color: var(--color-primary);
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -214,8 +215,8 @@ nav a:focus-visible {
 
 .contact-btn:hover {
   background-color: transparent;
-  color: #02882f;
-  border: 2px solid #02882f;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
 
 #om-oss {
@@ -225,11 +226,11 @@ nav a:focus-visible {
 }
 
 #om-oss h2 {
-  color: #02882f;
+  color: var(--color-primary);
   width: 100%;
   text-align: center;
   font-size: 2em;
-  border-bottom: 2px solid #02882f;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 #om-oss p {
@@ -263,7 +264,7 @@ nav a:focus-visible {
 
 .team p {
   font-size: 1.1em;
-  color: #006b25;
+  color: var(--color-green-dark);
 }
 
 .image-placeholder {
@@ -277,7 +278,7 @@ nav a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: #006b25;
+  color: var(--color-green-dark);
   text-decoration: none;
   font-weight: bold;
 }
@@ -306,11 +307,11 @@ nav a:focus-visible {
 }
 
 #projekt h2 {
-  color: #02882f;
+  color: var(--color-primary);
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
-  border-bottom: 2px solid #02882f;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .projects-intro {
@@ -341,7 +342,7 @@ nav a:focus-visible {
   border-radius: 20px;
   margin-bottom: 15px;
   overflow: hidden;
-  border: 2px solid #02882f;
+  border: 2px solid var(--color-primary);
 }
 
 .project-image img {
@@ -383,11 +384,11 @@ nav a:focus-visible {
 }
 
 #kontakt h2 {
-  color: #02882f;
+  color: var(--color-primary);
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
-  border-bottom: 2px solid #02882f;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .contact-grid {
@@ -413,7 +414,7 @@ nav a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  color: #006b25;
+  color: var(--color-green-dark);
   text-decoration: none;
   font-weight: bold;
 }
@@ -438,7 +439,7 @@ nav a:focus-visible {
 
 .contact-form button {
   padding: 12px 20px;
-  background-color: #02882f;
+  background-color: var(--color-primary);
   color: white;
   border: none;
   border-radius: 20px;
@@ -450,8 +451,8 @@ nav a:focus-visible {
 
 .contact-form button:hover {
   background-color: transparent;
-  color: #02882f;
-  border: 2px solid #02882f;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
 }
 
 @media (min-width: 700px) {
@@ -468,7 +469,7 @@ nav a:focus-visible {
 }
 
 .thank-you h1 {
-  color: #02882f;
+  color: var(--color-primary);
   font-size: 2em;
   margin-bottom: 10px;
 }
@@ -491,13 +492,13 @@ footer {
 }
 
 footer a {
-  color: #72bf7a;
+  color: var(--color-green-light);
   text-decoration: none;
   font-weight: bold;
 }
 
 footer a:hover {
-  color: #a2e6a8;
+  color: var(--color-green-hover);
   text-decoration: underline;
 }
 
@@ -512,11 +513,11 @@ footer a:hover {
 }
 
 .projects-page h1 {
-  color: #02882f;
+  color: var(--color-primary);
   text-align: center;
   margin-bottom: 30px;
   font-size: 2em;
-  border-bottom: 2px solid #02882f;
+  border-bottom: 2px solid var(--color-primary);
 }
 
 .jobs-page {
