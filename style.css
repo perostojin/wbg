@@ -579,3 +579,8 @@ footer a:hover {
 .skip-link:focus {
   top: 16px;
 }
+
+.project-cta {
+  text-align: center;
+  margin-top: 30px;
+}
